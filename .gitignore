@@ -1,0 +1,22 @@
+# Lean 4 build artifacts
+/build/
+/lake-packages/
+/lake-manifest.json
+/lakefile.lean
+
+# VSCode settings
+.vscode/
+
+# Lean 4 cache files
+.lean_cache/
+.lean/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Dependency directories
+/deps/
