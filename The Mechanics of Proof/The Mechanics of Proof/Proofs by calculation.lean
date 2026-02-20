@@ -1,3 +1,4 @@
+-- 1. Proofs by calculation
 import Mathlib
 
 -- 1.2.1 example
