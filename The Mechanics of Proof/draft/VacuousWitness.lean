@@ -1,4 +1,4 @@
-import Lean
+import Mathlib.NumberTheory.LSeries.RiemannZeta
 
 /-
 来源：倪静风
@@ -107,3 +107,7 @@ theorem riemannHypothesisToy : RiemannHypothesisToy := fun D =>
 #print axioms riemannHypothesisToy
 
 theorem realClaim : ∀ n : Nat, n + 0 = n := fun _ => Nat.add_zero _
+
+-- -- Mathlib 的真实黎曼猜想；玩具命题的证明不能充当它的证明。
+-- example : RiemannHypothesis := by
+--   exact riemannHypothesisToy
